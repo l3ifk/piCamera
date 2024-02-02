@@ -6,11 +6,6 @@ I run it with a RaspberryPi Zero 2W
 Camera module is the HQ Camera module by Raspberry Pi
 and a PiSugar 2 to power everything
 
-Here are some sample pictures to let you see the quality of it:
-
-![image](https://github.com/l3ifk/piCamera/assets/100339546/b1638949-2588-4b98-88f8-a68cbbfb83f7) ![image](https://github.com/l3ifk/piCamera/assets/100339546/05c9af21-cf99-4a5e-995f-1b665bc83564) ![image](https://github.com/l3ifk/piCamera/assets/100339546/e35e6ec5-bedb-41b6-a7b4-ccd76e8d32cc) ![image](https://github.com/l3ifk/piCamera/assets/100339546/ae9fba9e-867e-41eb-9348-38d6c093e82d) ![image](https://github.com/l3ifk/piCamera/assets/100339546/aa064e5f-e08c-4c2d-9c15-243ec2720a01)
-
-
 # Functionality
 
 The script I wrote uses the input of 2 buttons, one to take a picture and one for recording videos.
@@ -40,3 +35,9 @@ That's because in the python script want's to save pictures under /home/pi/Pictu
 
 I used systemd to start the script upon system start. 
 I added the **start_camera.sh** script too.
+
+# Example Pictures
+
+Here are some sample pictures to let you see the quality of the camera:
+
+![image](https://github.com/l3ifk/piCamera/assets/100339546/b1638949-2588-4b98-88f8-a68cbbfb83f7) ![image](https://github.com/l3ifk/piCamera/assets/100339546/05c9af21-cf99-4a5e-995f-1b665bc83564) ![image](https://github.com/l3ifk/piCamera/assets/100339546/e35e6ec5-bedb-41b6-a7b4-ccd76e8d32cc) ![image](https://github.com/l3ifk/piCamera/assets/100339546/ae9fba9e-867e-41eb-9348-38d6c093e82d) ![image](https://github.com/l3ifk/piCamera/assets/100339546/aa064e5f-e08c-4c2d-9c15-243ec2720a01)
